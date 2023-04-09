@@ -1,3 +1,4 @@
+<!-- based on the tutorial in https://www.freecodecamp.org/news/how-to-create-a-portfolio-website-using-html-css-javascript-and-bootstrap/ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +55,7 @@
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
                 <h2 class="hero_title">Aline de Freitas</h2>
-                <p class="hero_desc">I use Data Science for Environmental and Sustainable Solutions</p>
+                <p class="hero_desc">Using Data Science for Environmental and Sustainable Solutions</p>
             </div>
             </div>
         </div>
@@ -62,6 +63,11 @@
 
     <!-- about section-->
     <section id="about">
+      <!-- We have added classes named mt-4 and pt-4 with container class which will set the margin top and padding top to 1.5 rem. 
+        The row has two columns. One has the col-lg-4 class for displaying the image which will occupy the left column with a 4-part 
+        grid for large screens.
+        The next column is assigned a class of col-lg-8 which will occupy the right column with an 8-part grid for larger screens. 
+        For medium and small screens they will overlap with each other-->
         <div class="container mt-4 pt-4">
             <h1 class="text-center">About Me</h1>
             <div class="row mt-4">
@@ -99,16 +105,19 @@
                         with my commitment to ongoing learning and development, make me an excellent candidate 
                         for any data-focused role. -->
 
-                    <!-- <div class="row mt-3">
+                    <div class="row mt-3">
                         <div class="col-md-6">
                             <ul>
                                 <li>Name: Aline de Freitas</li>
                                 <li>Age: 31</li>
-                                <li>Occupation: Data Scientist and Data Analist</li>
+                                <li>Occupation: Coastal Engineer and Data Scientist</li>
+                                <li>Nationality: Brazil</li>
+                                <li>Legal Situation: Resident Permit in Portugal</li>
+                              
 
                             </ul>
                         </div>
-                    </div> -->
+                    </div> 
                     <div class="row mt-3">
                         <p> 
                             <br>
@@ -120,6 +129,36 @@
                     </div>
                 </div>
             </div>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                  <h1> Contact info</h1>
+                  <ul>
+                    <li><span>&#9993;</span> alfreitas.ocn@gmail.com</li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields 
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button> -->
+                    
+                </div>
+
+            </div>
+        </div>
     </section>
+      
 </body>
 </html>
