@@ -12,7 +12,8 @@
   background-image: url('IMG_2865.jpge');
   background-size: cover;
   background-position: center center;
-  height: 130vh;
+  height: 100%;
+  width: 100%;
 }
 
 /* For smaller screens */
