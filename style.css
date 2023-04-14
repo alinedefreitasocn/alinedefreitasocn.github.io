@@ -1,10 +1,27 @@
-/* hero background image */
+/* hero background image 
 .bgimage {
     height:130vh;
     background: url('IMG_2865.jpeg');
     background-size:cover;
     position:center;
+} */
+
+/* chatgpt implementation */
+/* For wide screens */
+.bgimage {
+  background-image: url('IMG_2865.jpge');
+  background-size: cover;
+  background-position: center center;
+  height: 130vh;
 }
+
+/* For smaller screens */
+@media only screen and (max-width: 767px) {
+  .bgimage {
+    background-size: contain;
+  }
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
