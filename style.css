@@ -1,7 +1,7 @@
 /* hero background image 
 .bgimage {
     height:130vh;
-    background: url('IMG_2865.jpeg');
+    background: url('images/IMG_2865.jpeg');
     background-size:cover;
     position:center;
 } */
@@ -9,7 +9,7 @@
 /* chatgpt implementation */
 /* For wide screens */
 .bgimage {
-  background-image: url('IMG_2865.jpeg');
+  background-image: url('images/IMG_2865.jpeg');
   background-size: cover;
   background-position: center center;
   height: 130vh;
