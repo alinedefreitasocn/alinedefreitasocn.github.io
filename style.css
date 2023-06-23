@@ -38,6 +38,11 @@
     color: white;
 }
 
+nav {
+	padding: 24px;
+	
+}
+
 /* about section image css */
 
 .imageAboutPage {
@@ -46,3 +51,44 @@
 .col-lg-8 {
     text-align: justify;
 }
+
+section {
+  height: 120vh;
+  padding-top: 50px;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 70px 48px;
+	padding-bottom: 120px;
+  padding-top: 50px;
+}
+
+.card {
+  border: none;
+}
+
+.card:hover img {
+	transform: scale(1.02);
+}
+
+.card-title {
+	color: darkgreen;
+	padding-top: 16px;
+	font-size: 24px;
+  padding-left: 10%;
+}
+
+.card img {
+	width: 80%;
+	height: 80%;
+	border-radius: 30px;
+	object-fit: cover;
+	transition: transform 0.3s ease-in-out;
+}
+
+.col-lg-6 {
+  padding-top: 50px;
+}
+
