@@ -77,7 +77,6 @@ section {
 	color: darkgreen;
 	padding-top: 16px;
 	font-size: 24px;
-  padding-left: 10%;
 }
 
 .card img {
@@ -91,4 +90,7 @@ section {
 .col-lg-6 {
   padding-top: 50px;
 }
+
+a {
+  text-decoration: none;}
 
