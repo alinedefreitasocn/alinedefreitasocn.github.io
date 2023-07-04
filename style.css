@@ -40,7 +40,7 @@
 
 nav {
 	padding: 24px;
-	
+
 }
 
 /* about section image css */
@@ -94,3 +94,6 @@ section {
 a {
   text-decoration: none;}
 
+.projects{
+  padding-top: 70px
+}
