@@ -40,6 +40,7 @@ section#sambla.bgimage {
   .bgimage {
     background-size: contain;
   }
+
 }
 
 /* All text in paragraphs will be aligned */
@@ -57,7 +58,7 @@ p {
     font-size: 2rem;
     text-align: center;
     /* offset-x | offset-y | blur-radius | color */
-    text-shadow: 1px 1px 10px black;
+    text-shadow: 1px 1px 5px black;
 }
 .hero-text {
     text-align: center;
@@ -113,13 +114,23 @@ nav {
 }
 
 .card img {
-	width: 80%;
-	height: 80%;
+	width: 50vh;
+	height: 40vh;
 	border-radius: 30px;
 	object-fit: cover;
 	transition: transform 0.3s ease-in-out;
 }
 
+
 /* revoming the underline from the links */
 a {
-  text-decoration: none;}
+  text-decoration: none;
+  color: darkgreen;
+
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
