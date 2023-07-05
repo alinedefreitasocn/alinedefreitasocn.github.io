@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body class="projects">
   <!-- load javascript after loading all html content -->
   <script src="script/script.js"></script>
@@ -37,6 +38,12 @@
               <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home</a>
               </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">About the Project</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#media">Project Media</a>
+              </li>
           </ul>
         </div>
     </div>
@@ -44,8 +51,73 @@
 
 
 <div class="container">
-  <section id="youtube">
-    <h1 class="text-center">Final project presentation on Youtube</h1>
+  <section id="about">
+    <h1 class="text-center">About the Project</h1>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+      <p>
+        Our team of three embarked on a two-week project to develop a predictive
+        model for new loan applications using real-world data consisting of
+        thousands of observations and 44 features. We started from
+        scratch and successfully created a model integrated
+        with a user interface.
+        </p>
+        <p>
+        The primary objective was to assess the
+        eligibility of individuals for loans and determine the maximum
+        loan amount they could receive based on the personal information
+        provided through a website form. To accomplish this, we employed
+        Streamlit to construct the website and execute the model, utilizing
+        the input features provided by the users. Leveraging Streamlit,
+        we constructed a user-friendly
+        website that integrated our model and utilized
+        user-provided input features.
+      </p>
+      <p>
+      Throughout the project, we faced some challenges that we successfully overcame
+      with collaborative efforts, meticulous feature engineering,
+      and model fine-tuning.
+      </p>
+
+      <h4>Problems faced</h4>
+      <p>
+        During our project, we faced two main challenges.
+        Firstly, the masking of real people's information in the dataset
+        negatively impacted the model's performance, resulting in a
+        significant decrease in the correlation between features and
+        the target variable. However, through careful analysis, feature
+        engineering, and model optimization, we were able to improve the
+        models' performance and mitigate the impact of the masked data.
+        </p>
+      <p>
+        Secondly, we encountered a highly unbalanced dataset,
+        with the loan rejection being predominant while the accepted were
+        underrepresented. This presented a challenge in training accurate
+        models, as they tended to favor the majority class and struggled
+        to make accurate predictions for the minority classes. To address
+        this, we employed specialized techniques to handle class imbalance,
+        ensuring fair and reliable predictions across all classes.
+      </p>
+
+
+      <h4>Key Responsibilities</h4>
+      <p>
+        <li>Performed data preprocessing tasks to optimize data ingestion into Python.</li>
+        <li>Implemented data cleaning techniques.</li>
+        <li>Addressed missing values effectively based on each feature.</li>
+        <li>Utilized One-Hot Encoding to transform categorical data into a format suitable for analysis.</li>
+        <li>Applied scaling techniques to normalize numerical features based on their distribution.</li>
+        <li>Developed a robust pre-processing pipeline to streamline data transformation and preparation.</li>
+        <li>Contributed to the development of the website, ensuring seamless integration of data engineering components.</li>
+      </p>
+    </div>
+    </div>
+  </section>
+  </div>
+
+<div class="container">
+  <section id="media">
+    <h1 class="text-center">Media</h1>
     <div class="row align-items-center">
       <div class="col-sm">
         <iframe width="560" height="315"
@@ -57,8 +129,13 @@
       </div>
       <div class="col-sm">
         <p>
-        I proudly presented my final project at Le Wagon Lisbon on the 16th of June,
-        2023 and recorded for posting on YouTube.
+          We proudly presented our final project at Le Wagon Lisbon on the
+          16th of June, 2023. The presentation was a success, and we had the
+          honor of having it recorded and published on YouTube. This not only
+          allowed us to showcase our hard work and achievements to a wider
+          audience but also served as a valuable resource for future
+          reference and inspiration. We are thrilled to have had the
+          opportunity to share our project with the Le Wagon community and beyond.
       </p>
       </div>
 

@@ -22,12 +22,18 @@
   }
 }
 
+/* All text in paragraphs will be aligned */
+p {
+  text-align: justify;
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
 }
 .hero_desc {
     font-size: 2rem;
+    text-align: center;
 }
 .hero-text {
     text-align: center;
@@ -38,6 +44,7 @@
     color: white;
 }
 
+/* adding a padding to the nav bar */
 nav {
 	padding: 24px;
 
@@ -48,12 +55,16 @@ nav {
 .imageAboutPage {
     width: 100%;
 }
-.col-lg-8 {
-    text-align: justify;
+
+/* change the classes definition from bootstrap */
+
+.col-lg-6 {
+  padding-top: 50px;
 }
 
 section {
-  height: 120vh;
+  color: darkgreen;
+  min-height: 120vh;
   padding-top: 50px;
 }
 
@@ -65,10 +76,12 @@ section {
   padding-top: 50px;
 }
 
+/* remove the default border from the card */
 .card {
   border: none;
 }
 
+/* animate the image when hover */
 .card:hover img {
 	transform: scale(1.02);
 }
@@ -76,7 +89,7 @@ section {
 .card-title {
 	color: darkgreen;
 	padding-top: 16px;
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .card img {
@@ -87,13 +100,11 @@ section {
 	transition: transform 0.3s ease-in-out;
 }
 
-.col-lg-6 {
-  padding-top: 50px;
-}
-
+/* revoming the underline from the links */
 a {
   text-decoration: none;}
 
+/* adding a padding to the project so it doesnt get under the nav bar */
 .projects{
   padding-top: 70px
 }
