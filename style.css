@@ -6,13 +6,33 @@
     position:center;
 } */
 
+section {
+  color: darkgreen;
+  min-height: 120vh;
+  padding-top: 50px;
+}
+
 /* chatgpt implementation */
 /* For wide screens */
 .bgimage {
   background-image: url('images/IMG_2865.jpeg');
   background-size: cover;
   background-position: center center;
-  height: 130vh;
+  height: 100vh;
+}
+
+section#gira.bgimage {
+  background-image: url('images/bike.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+section#sambla.bgimage {
+  background-image: url('images/loan_sambla.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 
 /* For smaller screens */
@@ -30,10 +50,14 @@ p {
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 10px black;
 }
 .hero_desc {
     font-size: 2rem;
     text-align: center;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 1px 1px 10px black;
 }
 .hero-text {
     text-align: center;
@@ -62,11 +86,7 @@ nav {
   padding-top: 50px;
 }
 
-section {
-  color: darkgreen;
-  min-height: 120vh;
-  padding-top: 50px;
-}
+
 
 .cards {
 	display: grid;
@@ -103,8 +123,3 @@ section {
 /* revoming the underline from the links */
 a {
   text-decoration: none;}
-
-/* adding a padding to the project so it doesnt get under the nav bar */
-.projects{
-  padding-top: 70px
-}
