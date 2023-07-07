@@ -23,16 +23,16 @@ section {
 
 section#gira.bgimage {
   background-image: url('images/bike.jpg');
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 section#sambla.bgimage {
   background-image: url('images/loan_sambla.jpg');
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* For smaller screens */
@@ -88,18 +88,27 @@ nav {
 }
 
 
-
+/*
 .cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 70px 48px;
 	padding-bottom: 120px;
   padding-top: 50px;
+} */
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+
 }
 
 /* remove the default border from the card */
 .card {
   border: none;
+  padding: 0 15px;
+  margin-bottom: 20px; /* Add margin between the cards */
 }
 
 /* animate the image when hover */
@@ -121,16 +130,16 @@ nav {
 	transition: transform 0.3s ease-in-out;
 }
 
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
 
 /* revoming the underline from the links */
 a {
   text-decoration: none;
   color: darkgreen;
 
-}
-
-.card-img-top {
-  width: 100%;
-  height: 15vw;
-  object-fit: cover;
 }
