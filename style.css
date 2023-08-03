@@ -7,9 +7,11 @@
 } */
 
 section {
-  color: darkgreen;
+  /* color: darkgreen; */
+  color: black;
   min-height: 120vh;
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 /* chatgpt implementation */
@@ -23,6 +25,7 @@ section {
 
 section#gira.bgimage {
   background-image: url('images/bike.jpg');
+  
   /* background-size: cover; */
   background-position: center center;
   /* height: 100vh; */

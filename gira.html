@@ -67,50 +67,47 @@
       <div class="row justify-content-center">
         <div class="col-lg-8">
           <p>
-          The GIRA bike sharing project was introduced in 2019 as part of
-          Lisbon's initiative to become the green capital of Europe. The project
+          Lisbon implemented a bike sharing system in 2019 as part of
+          the initiative to become the green capital of Europe. The goverment project
           aims to promote sustainable transportation and enhance the usability
-          of shared bicycles. In this project, our main objective is to analyze
-          demand patterns and gain insights to optimize the bike sharing system.
+          of shared bicycles.
         </p>
         <p>
-          By leveraging data from
-          <a href="https://lisboaaberta.cm-lisboa.pt/index.php/pt/mobilidade">Lisboa Aberta</a>
-          about the sharing bicycle system we will explore various aspects
-          such as usage patterns, peak hours, and user preferences.
-          Through comprehensive data analysis and modeling, we will
-          strive to understand the factors influencing bike usage and
-          identify opportunities for improvement.
+          By undertaking this personal project, I aim to apply my data engineering and
+          analytical skills to drive positive change in urban mobility and
+          contribute to the ongoing efforts towards a greener future, analyzing
+          demand patterns and gaining insights to optimize the bike sharing system.
         </p>
         <p>
-          Our analysis will provide valuable insights to the Lisbon government
+          My analysis provide valuable insights to the Lisbon government
           and GIRA operators, enabling them to make data-driven decisions
           regarding bike deployment, station planning,
-          and overall system optimization. Ultimately, our goal is to
+          and overall system optimization. Ultimately, my goal is to
           contribute to the success of the GIRA bike sharing project and
           support Lisbon's vision of becoming a greener and more sustainable city.
         </p>
-        <p>
-          By undertaking this project, we aim to apply our data science and
-          analytical skills to drive positive change in urban mobility and
-          contribute to the ongoing efforts towards a greener future.
-        </p>
+        <!-- <p>
+          By leveraging data from
+          <a href="https://lisboaaberta.cm-lisboa.pt/index.php/pt/mobilidade">Lisboa Aberta</a>
+          about the sharing bicycle system I will explore various aspects
+          such as usage patterns, peak hours, and user preferences.
+          Through comprehensive data analysis, I will
+          strive to understand the factors influencing bike usage and
+          identify opportunities for improvement.
+        </p> -->
 
         <h4>Dataset</h4>
-        In this project, we will utilize publicly available data from
+        In this project, I utilize publicly available data from
         <a href="https://lisboaaberta.cm-lisboa.pt/index.php/pt/mobilidade">Lisboa Aberta</a>
         which includes
         information about GIRA bike sharing stations in Lisbon. The data
         consists of the following key attributes:
         <li>
-          Station position: The latitude and longitude coordinates that
-          represent the geographic location of each GIRA bike
-          sharing station in Lisbon.
+          Station position: The geographic location of each station in Lisbon.
         </li>
         <li>
           Number of docks at the station: This indicates the total number of
-          docking spaces available at each station, where users can pick
-          up or return bicycles.
+          docking spaces available at each station. This value is constant for each station.
         </li>
         <li>
           Number of bicycles: The count of bicycles currently available at each
@@ -119,8 +116,7 @@
         </li>
         <li>
           Timestamp of update: The date and time at which the information
-          about the station's status, including the number of bicycles and
-          available docks, was last updated.
+          about the station was last updated.
         </li>
         </div>
       </div>
@@ -138,79 +134,31 @@
           and transforming the data, were implemented using Python scripts.
           The code for this data preparation process is readily
           available on my <a href="https://github.com/alinedefreitasocn/GIRA">
-            <img src="./images/github-mark.png" alt="" width="20" height="20"/>
+            <img src="./images/github-mark.png" alt="" width="15" height="15"/>
            page</a>.
         </p>
         </div>
       </div>
 
-      <div class="row justify-content-center ">
+      <div class="row justify-content-center">
 
         <div class="col-lg-8">
           <h3>
-            Visualization: Bike Availability Insights
+            Bike Availability Visualization and Insights
           </h3>
           <p>
-            Our project features a dynamic and interactive Tableau visualization
+            My project features a dynamic and interactive Tableau visualization
             that presents the mean distribution of bicycles per station,
             highlighting patterns based on the time of day and the day of the week.
-            This visualization serves as a tool to gain valuable insights into the
-            availability of bikes across different stations, enabling stakeholders
-            to make informed decisions and optimize operations.
           </p>
           <p>
               Through the Tableau visualization, users can explore the fluctuations
               in bike availability throughout the day and week, observing trends and
-              identifying peak periods of usage.
+              identifying peak periods of usage according to the region.
           </p>
         </div>
-        <div class="col-lg-12 col-sm-12">
-        <!-- Tableau dashboard -->
-
-          <!-- <div class='tableauPlaceholder' id='viz1688561775225' style='position: relative'>
-            <noscript>
-              <a href='https://public.tableau.com/views/GIRA-Sharingbicycleuse/Painel1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop'>
-                <img alt='Tableau visualization with map and hour distribution of the number of bibycles per day of the week' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GI&#47;GIRA-Sharingbicycleuse&#47;Painel1&#47;1_rss.png' style='border: none' />
-              </a>
-            </noscript>
-            <object class='tableauViz'  style='display:none;'>
-              <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-              <param name='embed_code_version' value='3' />
-              <param name='site_root' value='' />
-              <param name='name' value='GIRA-Sharingbicycleuse&#47;Painel1' />
-              <param name='tabs' value='no' />
-              <param name='toolbar' value='yes' />
-              <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;GI&#47;GIRA-Sharingbicycleuse&#47;Painel1&#47;1.png' />
-              <param name='animate_transition' value='yes' />
-              <param name='display_static_image' value='yes' />
-              <param name='display_spinner' value='yes' />
-              <param name='display_overlay' value='yes' />
-              <param name='display_count' value='yes' />
-              <param name='language' value='en-US' />
-              <param name='device' value='desktop' />
-            </object>
-          </div> -->
-            <!-- <script type='text/javascript'>
-            var divElement = document.getElementById('viz1688561775225');
-            var vizElement = divElement.getElementsByTagName('object')[0];
-            if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1300px';
-                                                  vizElement.style.maxWidth='100%';
-                                                  vizElement.style.minHeight='587px';
-                                                  vizElement.style.maxHeight=(divElement.offsetWidth*0.6)+'px';}
-            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='700px';
-                                                        vizElement.style.maxWidth='100%';
-                                                        vizElement.style.minHeight='587px';
-                                                        vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';}
-            else { vizElement.style.width='100%';
-                    vizElement.style.height='727px';
-
-                  }
-            var scriptElement = document.createElement('script');
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);
-            </script> -->
-
-            <div class="col-lg-12 col-sm-12">
+        <div class="row justify-content-center"> <!-- col-lg-12 col-sm-12 -->
+            <div class="col-lg-8 col-sm-12">
               <!-- Tableau dashboard -->
               <div class='tableauPlaceholder' id='viz1688561775225' style='position: relative'>
                 <noscript>
@@ -244,19 +192,19 @@
 
                 function setTableauSize() {
                   if (window.innerWidth > 800) {
-                    vizElement.style.minWidth = '1100px';
-                    vizElement.style.maxWidth = '100%';
-                    vizElement.style.minHeight = '700px'; //587px
-                    vizElement.style.maxHeight = (divElement.offsetWidth * 0.6) + 'px';
-                    vizElement.setAttribute('device', 'desktop');
-                  } else if (window.innerWidth > 500) {
                     vizElement.style.minWidth = '700px';
-                    vizElement.style.maxWidth = '100%';
-                    vizElement.style.minHeight = '700px'; //587px
+                    vizElement.style.maxWidth = '90%';
+                    vizElement.style.minHeight = '700px'; //px700
+                    vizElement.style.maxHeight = (divElement.offsetWidth * 0.6) + 'px';
+                    vizElement.setAttribute('device', 'phone');
+                  } else if (window.innerWidth > 500) {
+                    vizElement.style.minWidth = '500px';
+                    vizElement.style.maxWidth = '90%';
+                    vizElement.style.minHeight = '700px'; //700px
                     vizElement.style.maxHeight = (divElement.offsetWidth * 0.75) + 'px';
-                    vizElement.setAttribute('device', 'desktop');
+                    vizElement.setAttribute('device', 'phone');
                   } else {
-                    vizElement.style.width = '100%';
+                    vizElement.style.width = '90%';
                     vizElement.style.height = '727px';
                     vizElement.setAttribute('device', 'phone');
                   }
@@ -266,6 +214,31 @@
                 window.addEventListener('resize', setTableauSize);
               </script>
             </div>
+            <div class="col-lg-4 col-sm-12">
+              <h3>Insights</h3>
+              <p>Based on the number of available bicycles, we can draw some pattern insights:</p>
+              <li>
+                In general, the number of bikes in use at the same time is higher during the week, 
+                with a minimum of available bicycles at 17:00.
+              </li>
+              <li>
+                Looking at all stations on weekdays, there is a reduction in the number 
+                of available bicycles from 7:00 to 9:00 and from 16:00 to 19:00. This indicates that 
+                people typically use the sharing bicycle for their daily commutes to work or school.
+              </li>
+              <li>
+                During the weekend, the distribution is more uniform, with higher usage from 9:00 to 22:00. 
+                We can conclude that the bicycles are also used for recreational and transportation purposes during weekends.
+              </li>
+              <li>
+                The information regarding the start and end points of each trip is not available, but we can 
+                observe a clear increase in the availability of bicycles at Saldanha, Picoas, and Avenida regions 
+                during the morning and a decrease by the end of the day on weekdays.
+              </li>
+              <li>
+                There is no clear pattern of distribution variability by region during the weekend.
+              </li>
+              </div>
 
         </div>
       </div>
