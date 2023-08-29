@@ -45,14 +45,6 @@ section#wave.bgimage {
   /* height: 100vh; */
 }
 
-/* For smaller screens */
-@media only screen and (max-width: 300px) {
-  .bgimage {
-    background-size: contain;
-  }
-
-}
-
 /* All text in paragraphs will be aligned */
 p {
   text-align: justify;
@@ -151,5 +143,14 @@ nav {
 a {
   text-decoration: none;
   color: darkgreen;
+
+}
+
+
+/* For smaller screens */
+@media only screen and (max-width: 300px) {
+  .bgimage {
+    background-size: contain;
+  }
 
 }
