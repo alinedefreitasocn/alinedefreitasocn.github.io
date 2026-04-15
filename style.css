@@ -45,6 +45,13 @@ section#wave.bgimage {
   /* height: 100vh; */
 }
 
+section#learning.bgimage {
+  background-image: url('images/learning.jpg');
+  /* background-size: cover; */
+  background-position: center center;
+  /* height: 100vh; */
+}
+
 /* All text in paragraphs will be aligned */
 p {
   text-align: justify;
